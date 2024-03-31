@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "\"chat-bot-with-stable-diffusion\""
+version = "0.1.0"
+description = "\"this project include chatbot as well as stable diffusion\""
+authors = ["Darshan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
