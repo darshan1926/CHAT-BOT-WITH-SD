@@ -6,9 +6,8 @@ authors = ["Darshan"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.11.6"
 llama-index = "^0.10.25"
-fastapi = "^0.110.0"
 langchain = "^0.1.13"
 keras = "^3.1.1"
 numpy = "^1.26.4"
@@ -36,6 +35,7 @@ passlib = "^1.7.4"
 unicorn-binance-websocket-api = "^2.4.0"
 unicorn-fy = "^0.14.2"
 uvicorn = "^0.29.0"
+fastapi = "^0.111.1"
 
 [build-system]
 requires = ["poetry-core"]
